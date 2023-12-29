@@ -1,0 +1,83 @@
+@media (max-width:1140px) {
+    .catalog__box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 550px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .catalog__card{
+        margin-bottom: 60px;
+    }
+    .about{
+        padding-top: 70px;
+    }
+    .about__box{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+    .intro__title{
+        font-size: 75px;
+        line-height: 90px;
+    }
+    .intro__text{
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 500;
+        width: 430px;
+    }
+    .intro__link{
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 20px;
+        width: 180px;
+        padding: 14px 70px;
+    }
+}
+@media (max-width:1000px) {
+    .nav__input{
+        width: 190px;
+        height: 30px;
+        padding: 7px 18px;
+    }
+    .nav__btn{
+        width: 70px;
+        height: 30px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 8px 13px
+    }
+    .title,
+    .catalog__title,
+    .contact__title{
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .contact__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        width: 540px;
+    }
+    .number, .gmail{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+@media (max-width:870px) {
+      .intro__title {
+          font-size: 70px;
+          line-height: 80px;
+        }
+        .intro__text {
+            font-size: 30px;
+            line-height: 35px;
+            font-weight: 450;
+            width: 420px;
+        }
+
+}
